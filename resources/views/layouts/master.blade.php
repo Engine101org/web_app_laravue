@@ -120,17 +120,19 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+
     <!-- Main content -->
+    <div class="container">
+      <div class="container-fluid">
+        <router-view></router-view>
+      </div> <!-- /.conatiner-fluid -->
+    </div>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-      Anything you want
-    </div>
     <!-- Default to the left -->
     <strong>Copyright &copy; <?= date('Y');?> <a href="#">Engine101</a>.</strong> All rights reserved.
   </footer>

@@ -23,6 +23,7 @@
         "@fortawesome/fontawesome-free": "^5.3.1",
         "admin-lte": "^3.0.0-alpha.2",
         "ajv": "^6.5.3",
-        "imagemin": "^5.3.1"
+        "imagemin": "^5.3.1",
+        "vue-router": "^3.0.1"
     }
 }
