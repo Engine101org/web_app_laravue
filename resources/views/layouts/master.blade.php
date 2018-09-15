@@ -69,23 +69,29 @@
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa fa-users"></i>
+              <i class="nav-icon fas fa-wrench"></i>
               <p>
-                Users
+                Management
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fas fa-eye"></i>
-                  <p>View Users</p>
+                  <i class="fas fa-unlock-alt"></i>
+                  <p>Admin Users</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fas fa-user-plus"></i>
-                  <p>Add user</p>
+                  <i class="fas fa-people-carry"></i>
+                  <p>Consultants</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-graduation-cap"></i>
+                  <p>Schools</p>
                 </a>
               </li>
             </ul>
