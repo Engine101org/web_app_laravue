@@ -71,7 +71,7 @@
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Starter Pages
+                Users
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
@@ -79,13 +79,13 @@
               <li class="nav-item">
                 <a href="#" class="nav-link active">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Active Page</p>
+                  <p>View Users</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
-                  <p>Inactive Page</p>
+                  <p>Add user</p>
                 </a>
               </li>
             </ul>
