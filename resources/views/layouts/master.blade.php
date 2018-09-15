@@ -96,6 +96,15 @@
               </li>
             </ul>
           </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-file-chart-line"></i>
+              <p>
+                Reports
+                <i class="right fa fa-angle-left"></i>
+              </p>
+            </a>
+          </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-power-off"></i>
