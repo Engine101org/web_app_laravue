@@ -4,63 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c5f9b1532772e9081af1a2fbc54f1ad",
+    "content-hash": "4afac6bebc2fe1080ab58c2e4f545e43",
     "packages": [
-        {
-            "name": "bitfumes/laravel-multiauth",
-            "version": "v0.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sarthaksavvy/laravel-multiauth.git",
-                "reference": "c19c2e65981fc387adeb1b9ce346b94fe9068b2a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sarthaksavvy/laravel-multiauth/zipball/c19c2e65981fc387adeb1b9ce346b94fe9068b2a",
-                "reference": "c19c2e65981fc387adeb1b9ce346b94fe9068b2a",
-                "shasum": ""
-            },
-            "require-dev": {
-                "fzaninotto/faker": "^1.9@dev",
-                "illuminate/support": "^5.8@dev",
-                "mockery/mockery": "^1.0@dev",
-                "orchestra/database": "^3.8@dev",
-                "orchestra/testbench": "^3.8@dev",
-                "phpunit/phpunit": "^7.4@dev"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Bitfumes\\Multiauth\\MultiauthServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Bitfumes\\Multiauth\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "s-sarthak",
-                    "email": "sarthak@bitfumes.com"
-                }
-            ],
-            "description": "Laravel Multiauth package",
-            "keywords": [
-                "Laravel multiauth",
-                "Multi Auth",
-                "admin auth",
-                "bitfumes",
-                "multiauth"
-            ],
-            "time": "2018-09-09T08:40:33+00:00"
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
