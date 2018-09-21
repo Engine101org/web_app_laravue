@@ -78,7 +78,7 @@
             @endif
 
             <div class="content">
-                <img src="./img/composer.png" alt="" style="margin-right:90px;">
+                <img src="./img/composer.png" alt="" style="margin-right:290px;">
                 <div class="title m-b-md">
                     Coming Soon!
                 </div>
