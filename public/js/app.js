@@ -13916,11 +13916,10 @@ var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
     mode: 'history',
     routes: routes
 });
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+
+Vue.filter('upText', function (text) {
+    return text.charAt(0).toUpperCase() + text.slice(1);
+});
 
 var app = new Vue({
     el: '#app',
@@ -50308,7 +50307,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("td", [_vm._v(_vm._s(user.email))]),
                       _vm._v(" "),
-                      _c("td", [_vm._v(_vm._s(user.role))]),
+                      _c("td", [_vm._v(_vm._s(_vm._f("upText")(user.role)))]),
                       _vm._v(" "),
                       _c("td", [_vm._v(_vm._s(user.created_at))]),
                       _vm._v(" "),
