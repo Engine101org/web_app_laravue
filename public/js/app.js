@@ -50376,6 +50376,48 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -51105,6 +51147,108 @@ var staticRenderFns = [
                                   _vm._v("Gecko")
                                 ]),
                                 _vm._v(" "),
+                                _c("td", [_vm._v("Firefox 1.0")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Win 98+ / OSX.2+")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("1.7")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("A")])
+                              ]
+                            ),
+                            _c(
+                              "tr",
+                              { staticClass: "even", attrs: { role: "row" } },
+                              [
+                                _c("td", { staticClass: "sorting_1" }, [
+                                  _vm._v("Gecko")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Firefox 1.5")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Win 98+ / OSX.2+")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("1.8")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("A")])
+                              ]
+                            ),
+                            _c(
+                              "tr",
+                              { staticClass: "odd", attrs: { role: "row" } },
+                              [
+                                _c("td", { staticClass: "sorting_1" }, [
+                                  _vm._v("Gecko")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Firefox 2.0")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Win 98+ / OSX.2+")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("1.8")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("A")])
+                              ]
+                            ),
+                            _c(
+                              "tr",
+                              { staticClass: "even", attrs: { role: "row" } },
+                              [
+                                _c("td", { staticClass: "sorting_1" }, [
+                                  _vm._v("Gecko")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Firefox 3.0")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Win 2k+ / OSX.3+")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("1.9")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("A")])
+                              ]
+                            ),
+                            _c(
+                              "tr",
+                              { staticClass: "odd", attrs: { role: "row" } },
+                              [
+                                _c("td", { staticClass: "sorting_1" }, [
+                                  _vm._v("Gecko")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Camino 1.0")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("OSX.2+")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("1.8")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("A")])
+                              ]
+                            ),
+                            _c(
+                              "tr",
+                              { staticClass: "even", attrs: { role: "row" } },
+                              [
+                                _c("td", { staticClass: "sorting_1" }, [
+                                  _vm._v("Gecko")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Camino 1.5")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("OSX.3+")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("1.8")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("A")])
+                              ]
+                            ),
+                            _c(
+                              "tr",
+                              { staticClass: "odd", attrs: { role: "row" } },
+                              [
+                                _c("td", { staticClass: "sorting_1" }, [
+                                  _vm._v("Gecko")
+                                ]),
+                                _vm._v(" "),
                                 _c("td", [_vm._v("Netscape 7.2")]),
                                 _vm._v(" "),
                                 _c("td", [_vm._v("Win 95+ / Mac OS 8.6-9.2")]),
@@ -51144,6 +51288,23 @@ var staticRenderFns = [
                                 _c("td", [_vm._v("Win 98+ / OSX.2+")]),
                                 _vm._v(" "),
                                 _c("td", [_vm._v("1.8")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("A")])
+                              ]
+                            ),
+                            _c(
+                              "tr",
+                              { staticClass: "even", attrs: { role: "row" } },
+                              [
+                                _c("td", { staticClass: "sorting_1" }, [
+                                  _vm._v("Gecko")
+                                ]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Mozilla 1.0")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("Win 95+ / OSX.1+")]),
+                                _vm._v(" "),
+                                _c("td", [_vm._v("1")]),
                                 _vm._v(" "),
                                 _c("td", [_vm._v("A")])
                               ]
@@ -51195,11 +51356,7 @@ var staticRenderFns = [
                             "aria-live": "polite"
                           }
                         },
-                        [
-                          _vm._v(
-                            "Showing 1 to 3 of 3 entries (filtered from 57 total entries)"
-                          )
-                        ]
+                        [_vm._v("Showing 1 to 10 of 57 entries")]
                       )
                     ]),
                     _c("div", { staticClass: "col-sm-12 col-md-7" }, [
@@ -51258,9 +51415,103 @@ var staticRenderFns = [
                             ),
                             _c(
                               "li",
+                              { staticClass: "paginate_button page-item " },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "page-link",
+                                    attrs: {
+                                      href: "#",
+                                      "aria-controls": "example1",
+                                      "data-dt-idx": "2",
+                                      tabindex: "0"
+                                    }
+                                  },
+                                  [_vm._v("2")]
+                                )
+                              ]
+                            ),
+                            _c(
+                              "li",
+                              { staticClass: "paginate_button page-item " },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "page-link",
+                                    attrs: {
+                                      href: "#",
+                                      "aria-controls": "example1",
+                                      "data-dt-idx": "3",
+                                      tabindex: "0"
+                                    }
+                                  },
+                                  [_vm._v("3")]
+                                )
+                              ]
+                            ),
+                            _c(
+                              "li",
+                              { staticClass: "paginate_button page-item " },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "page-link",
+                                    attrs: {
+                                      href: "#",
+                                      "aria-controls": "example1",
+                                      "data-dt-idx": "4",
+                                      tabindex: "0"
+                                    }
+                                  },
+                                  [_vm._v("4")]
+                                )
+                              ]
+                            ),
+                            _c(
+                              "li",
+                              { staticClass: "paginate_button page-item " },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "page-link",
+                                    attrs: {
+                                      href: "#",
+                                      "aria-controls": "example1",
+                                      "data-dt-idx": "5",
+                                      tabindex: "0"
+                                    }
+                                  },
+                                  [_vm._v("5")]
+                                )
+                              ]
+                            ),
+                            _c(
+                              "li",
+                              { staticClass: "paginate_button page-item " },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "page-link",
+                                    attrs: {
+                                      href: "#",
+                                      "aria-controls": "example1",
+                                      "data-dt-idx": "6",
+                                      tabindex: "0"
+                                    }
+                                  },
+                                  [_vm._v("6")]
+                                )
+                              ]
+                            ),
+                            _c(
+                              "li",
                               {
-                                staticClass:
-                                  "paginate_button page-item next disabled",
+                                staticClass: "paginate_button page-item next",
                                 attrs: { id: "example1_next" }
                               },
                               [
@@ -51271,7 +51522,7 @@ var staticRenderFns = [
                                     attrs: {
                                       href: "#",
                                       "aria-controls": "example1",
-                                      "data-dt-idx": "2",
+                                      "data-dt-idx": "7",
                                       tabindex: "0"
                                     }
                                   },
