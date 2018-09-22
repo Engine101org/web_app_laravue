@@ -13925,7 +13925,7 @@ Vue.filter('upText', function (text) {
 });
 
 Vue.filter('myDate', function (created) {
-    return created.moment().format('MMMM Do YYYY');
+    return __WEBPACK_IMPORTED_MODULE_1_moment___default()(created).format('MMMM Do YYYY');
 });
 
 var app = new Vue({
