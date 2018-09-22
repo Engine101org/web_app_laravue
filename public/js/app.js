@@ -50211,13 +50211,13 @@ var staticRenderFns = [
                   _c("tr", [
                     _c("th", [_vm._v("ID")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("User")]),
+                    _c("th", [_vm._v("Name")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Date")]),
+                    _c("th", [_vm._v("Email")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Status")]),
+                    _c("th", [_vm._v("Role")]),
                     _vm._v(" "),
-                    _c("th", [_vm._v("Reason")])
+                    _c("th", [_vm._v("Action")])
                   ]),
                   _vm._v(" "),
                   _c("tr", [
