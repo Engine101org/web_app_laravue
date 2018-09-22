@@ -126,7 +126,7 @@
                 this.form.post('api/user');
                 toast({
                     type: 'success',
-                    title: 'Signed in successfully'
+                    title: 'User created successfully'
                 });
                 this.$Progress.finish();
             }

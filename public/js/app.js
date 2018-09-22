@@ -50308,7 +50308,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.form.post('api/user');
             toast({
                 type: 'success',
-                title: 'Signed in successfully'
+                title: 'User created successfully'
             });
             this.$Progress.finish();
         }
