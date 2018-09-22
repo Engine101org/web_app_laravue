@@ -28,6 +28,9 @@ const router = new VueRouter({
     routes
 })
 
+/*
+ * Global Filters
+ */
 Vue.filter('upText', function(text) {
     return text.charAt(0).toUpperCase() + text.slice(1);
 });
@@ -35,7 +38,9 @@ Vue.filter('upText', function(text) {
 Vue.filter('myDate', function(created) {
     return moment(created).format('MMMM Do YYYY');
 });
-
+/*
+ * End Global Filters
+ */
 const app = new Vue({
     el: '#app',
     router

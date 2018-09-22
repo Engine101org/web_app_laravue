@@ -13920,6 +13920,9 @@ var router = new __WEBPACK_IMPORTED_MODULE_2_vue_router__["a" /* default */]({
     routes: routes
 });
 
+/*
+ * Global Filters
+ */
 Vue.filter('upText', function (text) {
     return text.charAt(0).toUpperCase() + text.slice(1);
 });
@@ -13927,7 +13930,9 @@ Vue.filter('upText', function (text) {
 Vue.filter('myDate', function (created) {
     return __WEBPACK_IMPORTED_MODULE_1_moment___default()(created).format('MMMM Do YYYY');
 });
-
+/*
+ * End Global Filters
+ */
 var app = new Vue({
     el: '#app',
     router: router
