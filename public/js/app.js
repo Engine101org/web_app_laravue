@@ -50291,7 +50291,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             });
         },
         createUser: function createUser() {
+            this.$Progress.start();
             this.form.post('api/user');
+            this.$Progress.finish();
         }
     },
     created: function created() {
