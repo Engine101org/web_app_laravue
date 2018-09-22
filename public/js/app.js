@@ -50317,8 +50317,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
     },
     created: function created() {
+        var _this2 = this;
+
         this.getUsers();
-        setInterval(this.getUsers(), 3000);
+        setInterval(function () {
+            return _this2.getUsers();
+        }, 3000);
     }
 });
 
