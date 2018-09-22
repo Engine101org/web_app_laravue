@@ -50324,7 +50324,7 @@ var staticRenderFns = [
                       staticClass: "modal-title",
                       attrs: { id: "addNewLabel" }
                     },
-                    [_vm._v("Modal title")]
+                    [_vm._v("Add User")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -50353,7 +50353,7 @@ var staticRenderFns = [
                   _c(
                     "button",
                     {
-                      staticClass: "btn btn-secondary",
+                      staticClass: "btn btn-danger",
                       attrs: { type: "button", "data-dismiss": "modal" }
                     },
                     [_vm._v("Close")]
@@ -50365,7 +50365,7 @@ var staticRenderFns = [
                       staticClass: "btn btn-primary",
                       attrs: { type: "button" }
                     },
-                    [_vm._v("Save changes")]
+                    [_vm._v("Create")]
                   )
                 ])
               ])
