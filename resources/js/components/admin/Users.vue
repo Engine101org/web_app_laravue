@@ -7,6 +7,9 @@
                 <h3 class="card-title">Users</h3>
 
                 <div class="card-tools">
+                    <button class="btn btn-success">Add user
+                        <i class="fas fa-user-plus"></i>
+                    </button>
                 </div>
               </div>
               <!-- /.card-header -->
