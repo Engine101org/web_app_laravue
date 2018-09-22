@@ -21,6 +21,7 @@
                             <th>Name</th>
                             <th>Email</th>
                             <th>Role</th>
+                            <th>Created At</th>
                             <th>Action</th>
                         </tr>
                         <tr v-for="user in users" :key="user.id">
@@ -28,6 +29,7 @@
                             <td>{{ user.name }}</td>
                             <td>{{ user.email }}</td>
                             <td>{{ user.role }}</td>
+                            <td>{{ user.created_at}}</td>
                             <td>
                                 <a href="">
                                     <i class="fa fa-edit"></i>
