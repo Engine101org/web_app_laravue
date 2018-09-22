@@ -33,7 +33,7 @@ Vue.filter('upText', function(text) {
 });
 
 Vue.filter('myDate', function(created) {
-    return created.moment().format('MMMM Do YYYY, h:mm:ss a');;
+    return created.moment().format('MMMM Do YYYY');;
 });
 
 const app = new Vue({
