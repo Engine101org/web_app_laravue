@@ -12,8 +12,12 @@ import { Form, HasError, AlertError } from 'vform';
 import moment from 'moment';
 import VueProgressBar from 'vue-progressbar'
 import VueRouter from 'vue-router'
+import swal from 'sweetalert2'
 
 window.Form = Form;
+window.Swal = swal;
+window.Toast = toast;
+
 Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
 
@@ -34,6 +38,13 @@ const router = new VueRouter({
     mode: 'history',
     routes
 })
+
+const toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000
+});
 
 /*
  * Global Filters
