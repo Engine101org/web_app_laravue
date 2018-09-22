@@ -120,6 +120,8 @@
     <div class="container">
       <div class="container-fluid">
         <router-view></router-view>
+        <!-- set progressbar -->
+        <vue-progress-bar></vue-progress-bar>
       </div> <!-- /.conatiner-fluid -->
     </div>
     <!-- /.content -->
