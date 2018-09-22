@@ -50316,7 +50316,9 @@ var render = function() {
                       _vm._v(" "),
                       _c("td", [_vm._v(_vm._s(_vm._f("upText")(user.role)))]),
                       _vm._v(" "),
-                      _c("td", [_vm._v(_vm._s(user.created_at))]),
+                      _c("td", [
+                        _vm._v(_vm._s(_vm._f("myDate")(user.created_at)))
+                      ]),
                       _vm._v(" "),
                       _vm._m(2, true)
                     ])
