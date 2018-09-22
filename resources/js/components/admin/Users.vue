@@ -117,7 +117,7 @@
         },
         methods: {
             getUsers(){
-                axios.get('api/user').then(({ data }) => (this.users = data));
+                axios.get('api/user').then(({ data }) => (this.users = data.data));
             },
             createUser(){
                 this.form.post('api/user');
