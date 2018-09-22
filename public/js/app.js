@@ -13914,8 +13914,7 @@ window.Vue = __webpack_require__(37);
 
 
 window.Form = __WEBPACK_IMPORTED_MODULE_0_vform__["Form"];
-window.Swal = __WEBPACK_IMPORTED_MODULE_4_sweetalert2___default.a;
-window.Toast = toast;
+window.swal = __WEBPACK_IMPORTED_MODULE_4_sweetalert2___default.a;
 
 Vue.component(__WEBPACK_IMPORTED_MODULE_0_vform__["HasError"].name, __WEBPACK_IMPORTED_MODULE_0_vform__["HasError"]);
 Vue.component(__WEBPACK_IMPORTED_MODULE_0_vform__["AlertError"].name, __WEBPACK_IMPORTED_MODULE_0_vform__["AlertError"]);
@@ -13935,13 +13934,14 @@ var router = new __WEBPACK_IMPORTED_MODULE_3_vue_router__["a" /* default */]({
     routes: routes
 });
 
-var toast = Swal.mixin({
+var toast = __WEBPACK_IMPORTED_MODULE_4_sweetalert2___default.a.mixin({
     toast: true,
     position: 'top-end',
     showConfirmButton: false,
     timer: 3000
 });
 
+window.toast = toast;
 /*
  * Global Filters
  */
@@ -50306,7 +50306,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         createUser: function createUser() {
             this.$Progress.start();
             this.form.post('api/user');
-            Toast({
+            toast({
                 type: 'success',
                 title: 'Signed in successfully'
             });

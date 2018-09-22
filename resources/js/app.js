@@ -15,8 +15,7 @@ import VueRouter from 'vue-router'
 import swal from 'sweetalert2'
 
 window.Form = Form;
-window.Swal = swal;
-window.Toast = toast;
+window.swal = swal;
 
 Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
@@ -39,13 +38,14 @@ const router = new VueRouter({
     routes
 })
 
-const toast = Swal.mixin({
+const toast = swal.mixin({
     toast: true,
     position: 'top-end',
     showConfirmButton: false,
     timer: 3000
 });
 
+window.toast = toast;
 /*
  * Global Filters
  */
