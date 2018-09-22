@@ -106,6 +106,7 @@
     export default {
         data() {
             return {
+                users:{},
                 form: new Form({
                     name: '',
                     email: '',
@@ -115,12 +116,15 @@
             }
         },
         methods: {
+            getUsers(){
+                axios.get('api/user').then(({ data }) => (this.users = data));
+            },
             createUser(){
                 this.form.post('api/user');
             }
         },
-        mounted() {
-            console.log('Component mounted.')
+        created() {
+            this.getUsers();
         }
     }
 </script>

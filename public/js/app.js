@@ -50249,6 +50249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
+            users: {},
             form: new Form({
                 name: '',
                 email: '',
@@ -50259,12 +50260,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
 
     methods: {
+        getUsers: function getUsers() {
+            var _this = this;
+
+            axios.get('api/user').then(function (_ref) {
+                var data = _ref.data;
+                return _this.users = data;
+            });
+        },
         createUser: function createUser() {
             this.form.post('api/user');
         }
     },
-    mounted: function mounted() {
-        console.log('Component mounted.');
+    created: function created() {
+        this.getUsers();
     }
 });
 
