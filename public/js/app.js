@@ -50173,13 +50173,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -50207,40 +50200,9 @@ var staticRenderFns = [
         _c("div", { staticClass: "col-12" }, [
           _c("div", { staticClass: "card" }, [
             _c("div", { staticClass: "card-header" }, [
-              _c("h3", { staticClass: "card-title" }, [
-                _vm._v("Responsive Hover Table")
-              ]),
+              _c("h3", { staticClass: "card-title" }, [_vm._v("Users")]),
               _vm._v(" "),
-              _c("div", { staticClass: "card-tools" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "input-group input-group-sm",
-                    staticStyle: { width: "150px" }
-                  },
-                  [
-                    _c("input", {
-                      staticClass: "form-control float-right",
-                      attrs: {
-                        type: "text",
-                        name: "table_search",
-                        placeholder: "Search"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "input-group-append" }, [
-                      _c(
-                        "button",
-                        {
-                          staticClass: "btn btn-default",
-                          attrs: { type: "submit" }
-                        },
-                        [_c("i", { staticClass: "fa fa-search" })]
-                      )
-                    ])
-                  ]
-                )
-              ])
+              _c("div", { staticClass: "card-tools" })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body table-responsive p-0" }, [
