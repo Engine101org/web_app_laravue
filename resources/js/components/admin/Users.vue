@@ -57,7 +57,12 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div class="form-group">
+                            <input v-model="form.name" type="text" name="name" 
+                                placeholder="Full Name"
+                                class="form-control" :class="{ 'is-invalid': form.errors.has('name') }">
+                            <has-error :form="form" field="name"></has-error>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -72,6 +77,16 @@
 
 <script>
     export default {
+        data() {
+            return {
+                form: new Form({
+                    name: '',
+                    email: '',
+                    password: '',
+                    role: ''
+                }),
+            }
+        },
         mounted() {
             console.log('Component mounted.')
         }
