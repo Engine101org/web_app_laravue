@@ -50306,6 +50306,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         createUser: function createUser() {
             this.$Progress.start();
             this.form.post('api/user');
+
+            $('#addNew').modal('hide');
+
             toast({
                 type: 'success',
                 title: 'User created successfully'
