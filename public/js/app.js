@@ -50318,6 +50318,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     created: function created() {
         this.getUsers();
+        setInterval(this.getUsers(), 3000);
     }
 });
 

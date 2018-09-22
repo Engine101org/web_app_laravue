@@ -136,6 +136,7 @@
         },
         created() {
             this.getUsers();
+            setInterval(this.getUsers(), 3000);
         }
     }
 </script>
